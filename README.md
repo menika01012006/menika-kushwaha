@@ -48,14 +48,3 @@ javac -d out (Get-ChildItem -Recurse -Filter *.java src | % FullName)
 java -cp out Main
 ```
 
----
-
-## 💻 Sample Output
-
-```text
-Not Palindrome
-Not Spy Number
-Not Strong Number
-is not Armstrong
-is not Diserium
-```
